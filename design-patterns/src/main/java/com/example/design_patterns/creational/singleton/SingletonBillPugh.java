@@ -1,6 +1,7 @@
 package com.example.design_patterns.creational.singleton;
 
 /**
+ * @author blackgersain
  * Variant of Singleton pattern.
  * This version is also lazy (same characteristics) as the INSTANCE is only created when we call the getInstance()
  * method.

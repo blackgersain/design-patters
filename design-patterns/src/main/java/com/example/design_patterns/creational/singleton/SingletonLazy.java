@@ -1,6 +1,7 @@
 package com.example.design_patterns.creational.singleton;
 
 /**
+ * @author blackgersain
  * Variant of Singleton pattern.
  * The unique instance is only created at the moment of calling the getInstance() method, so no instance is created if
  * we don't require it.

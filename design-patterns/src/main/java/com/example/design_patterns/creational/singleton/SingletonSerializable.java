@@ -3,6 +3,15 @@ package com.example.design_patterns.creational.singleton;
 import java.io.Serial;
 import java.io.Serializable;
 
+/**
+ * @author blackgersain
+ * Variant of Singleton pattern.
+ * The unique instance is only created at the moment of calling the getInstance() method, so no instance is created if
+ * we don't require it.
+ * Good for loading resources that are expensive as this decouples the effort of loading the resource from the initial
+ * loading time of the application.
+ * This version of the Singleton takes care of not breaking the pattern when we load a Singleton (deserialize it).
+ */
 public class SingletonSerializable implements Serializable {
 
     private static final long serialVersionUID = -7604766932017737115L;

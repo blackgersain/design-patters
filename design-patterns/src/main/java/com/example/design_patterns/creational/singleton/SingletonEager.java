@@ -1,6 +1,7 @@
 package com.example.design_patterns.creational.singleton;
 
 /**
+ * @author blackgersain
  * Variant of Singleton pattern.
  * The unique instance is created at the moment of loading the class.
  * The instance is created although the application doesn't need to use it.
